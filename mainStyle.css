@@ -15,6 +15,7 @@ html, body{
 #menu{	
 	position: 50%;
 	background-color: #448AFF;
+	list-style:none;
 }
 
 main{	
