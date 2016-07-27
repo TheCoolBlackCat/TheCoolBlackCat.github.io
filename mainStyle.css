@@ -1,5 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans:400,700';
 
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu{
+	
+}
+
+main{
+	
+}
+
 h1{
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;	
