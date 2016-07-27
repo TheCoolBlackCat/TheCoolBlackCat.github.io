@@ -5,17 +5,27 @@ html, body{
 	padding: 0px;
 }
 
-#menu{
-	
+.centre {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
 }
 
-main{
-	
+#menu{	
+	position: absolute;
+}
+
+main{	
+	position: absolute;
 }
 
 h1{
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;	
+	margin-left: 10px;
+	padding-left: 20px;
+	border-left: #0049ff;
 }
 
 h2{
