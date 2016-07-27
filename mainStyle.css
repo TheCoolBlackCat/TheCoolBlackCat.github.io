@@ -14,14 +14,17 @@ html, body{
 
 #menu{	
 	position: 50%;
+	background-color: #448AFF;
 }
 
 main{	
 	position: absolute;
+	background-color: #82B1FF;
 }
 
 h1{
 	font-family: 'Droid Sans', sans-serif;
+	font-color: #2196F3;
 	font-weight: 700;	
 	margin-left: 10px;
 	padding-left: 20px;
