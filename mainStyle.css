@@ -14,18 +14,22 @@ html, body{
 
 #menu{	
 	position: 50%;
-	background-color: #448AFF;
+	background-color: #1976D2;
 	list-style: none;
 }
 
-main{	
+#main{	
 	position: absolute;
+	background-color: #82B1FF;
+}
+
+#repos{
 	background-color: #82B1FF;
 }
 
 h1{
 	font-family: 'Droid Sans', sans-serif;
-	font-color: #2196F3;
+	font-color: #1565C0;
 	font-weight: 700;	
 	margin-left: 10px;
 	padding-left: 20px;
@@ -34,5 +38,6 @@ h1{
 
 h2{
 	font-family: 'Droid Sans', sans-serif;
+	font-color: #1565C0;
 	font-weight: 400;
 }
