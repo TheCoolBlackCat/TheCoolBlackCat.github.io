@@ -23,10 +23,14 @@
 		<meta name="msapplication-wide310x150logo" content="favicomatic/mstile-310x150.png" />
 		<meta name="msapplication-square310x310logo" content="favicomatic/mstile-310x310.png" />
 		
-		<meta name="viewport" content="width=device-width, initial-scale=5.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<style>
 			@import 'https://fonts.googleapis.com/css?family=Droid+Sans:400,700';
+			
+			* {
+    			box-sizing: border-box;
+			}
 
 			html, body{
 				margin: 0px;
@@ -43,50 +47,37 @@
 			table {
 				position: relative;
 				left: 50%;
-				top: 50%;
 			}
 			
-			img {
-				width: 100px;
+			.logo{
+				width:512px;
+				height:512px;
 			}
-
+			
+			#fb {background-image: url('social/facebook.png');}
+			#twit {background-image: url('social/twitter.png');}
+			#goog {background-image: url('social/gplus.png');}
+			#snap {background-image: url('social/snapchat.png');}
+			#git {background-image: url('social/github.png');}
 
 		</style>
 	</head>
 	<body>
 		<table>
 			<tr>
-				<td id="fb">
-					<a href="https://www.facebook.com/TheCoolBlackCat">
-						<img src="social/facebook.png" alt="Facebook" />
-					</a>
-				</td>
+				<td><a href="https://www.facebook.com/TheCoolBlackCat"><div id="fb" class="logo"></div></a></td>
 			</tr>
 			<tr>
-				<td id="twit">
-					<a href="https://www.twitter.com/TheCoolBlackCat">
-						<img src="social/twitter.png" alt="Twitter" />
-					</a>
-				</td>
+				<td><a href="https://www.twitter.com/TheCoolBlackCat"><div id="twit" class="logo"></div></a></td>
 			</tr>
 			<tr>
-				<td id="goog">
-					<a href="https://plus.google.com/u/0/100329149600278363701?prsrc=3">
-						<img src="social/gplus.png" alt="Google+" />
-					</a>
-				</td>
+				<td><a href="https://plus.google.com/u/0/100329149600278363701?prsrc=3"><div id="goog" class="logo"></div></a></td>
 			</tr>
 			<tr>
-				<td id="snap">
-					
-				</td>
+				<td><a href="#"><div id="snap" class="logo"></div></a></td>
 			</tr>
 			<tr>
-				<td id="git">
-					<a href="https://www.github.com/TheCoolBlackCat">
-						<img src="social/github.png" alt="GitHub" />
-					</a>
-				</td>
+				<td><a href="https://www.github.com/TheCoolBlackCat"><div id="git" class="logo"></div></a></td>
 			</tr>
 
 		</table>
